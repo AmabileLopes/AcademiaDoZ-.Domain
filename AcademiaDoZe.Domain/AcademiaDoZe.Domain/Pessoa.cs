@@ -18,7 +18,7 @@ namespace AcademiaDoZe.Domain
         int NumeroCasa { get; set; }
         String Complemento {  get; set; }
 
-        public Pessoa( string nomecompleto, string cpf, DateTime datanascimento, int telefone, int numerocasa, string complemento, int cep, string pais, string estado, string cidade, string bairro, string rua) : base(cep, pais, estado, cidade, bairro, rua)
+        public Pessoa( string nomecompleto, string cpf, DateTime datanascimento, int telefone, int numerocasa, string complemento, int cep, string pais, string estado, string cidade, string bairro, string nomelogradouro) : base(cep, pais, estado, cidade, bairro, nomelogradouro)
         {
             NomeCompleto = nomecompleto;
             Cpf = cpf;
